@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="madproject.sliit.com.sliittp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens android:anyDensity="true" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sliit_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FacultyActivity"
+            android:parentActivityName=".MainActivity" />
+        <!-- foc year activity -->
+        <activity
+            android:name=".FocYearActivity"
+            android:parentActivityName=".FacultyActivity" />
+        <!-- foc year activity -->
+
+
+        <!-- foc first year -->
+        <!-- first semester -->
+        <activity
+            android:name=".FocFirstYearActivity"
+            android:parentActivityName=".FocFirstYearSemActivity" />
+        <activity
+            android:name=".FocSecondYearSemester"
+            android:parentActivityName=".Foc_fy_SSemActivity" />
+        <activity
+            android:name=".FocFirstYearSemActivity"
+            android:parentActivityName=".FocFirstYearActivity" />
+
+        <activity
+            android:name=".FocFirstYearFirstSemIpActivity"
+            android:parentActivityName=".FocFirstYearActivity" />
+        <activity
+            android:name=".FocFirstYearFirstSemMitActivity"
+            android:parentActivityName=".FocFirstYearActivity" />
+        <!-- first semester -->
+
+
+        <!-- second semester -->
+        <activity
+            android:name=".FocFirstYFirstSemIcsActivity"
+            android:parentActivityName=".FocFirstYearActivity" />
+        <activity
+            android:name=".Foc_fy_SSemActivity"
+            android:parentActivityName=".FocFirstYearSemActivity" />
+        <activity
+            android:name=".Foc_fy_ss_iwtActivity"
+            android:parentActivityName=".Foc_fy_SSemActivity" />
+        <activity
+            android:name=".Foc_fy_ss_oocActivity"
+            android:parentActivityName=".Foc_fy_SSemActivity" />
+        <activity
+            android:name=".Foc_fy_ss_psActivity"
+            android:parentActivityName=".Foc_fy_SSemActivity" />
+        <activity
+            android:name=".Foc_fy_ss_isdmActivity"
+            android:parentActivityName=".Foc_fy_SSemActivity" />
+        <activity
+            android:name=".Foc_fy_ss_spmActivity"
+            android:parentActivityName=".Foc_fy_SSemActivity" />
+        <!-- second semester -->
+        <!-- foc first year -->
+
+
+        <!-- foc second year -->
+        <!-- first semester -->
+        <activity
+            android:name=".FocSecondYearSemesterOne"
+            android:parentActivityName=".FocSecondYearSemester" />
+        <activity
+            android:name=".Foc_secondyearSemesteroneSe"
+            android:parentActivityName=".FocSecondYearSemester" />
+        <activity
+            android:name=".FocSecondyearSemesteroneOssa"
+            android:parentActivityName=".FocSecondYearSemester" />
+        <activity
+            android:name=".FocSecondyearSemesteroneOop"
+            android:parentActivityName=".FocSecondYearSemester" />
+        <!-- first semester -->
+
+
+        <!-- second semester -->
+        <activity
+            android:name=".FocSecondYearSemesterTwo"
+            android:parentActivityName=".FocSecondYearSemester" />
+        <activity
+            android:name=".FocSecondyearSemestertwoDsa"
+            android:parentActivityName=".FocSecondYearSemester" />
+        <activity
+            android:name=".FocSecondyearSemestertwoMad"
+            android:parentActivityName=".FocSecondYearSemester" />
+        <activity
+            android:name=".FocSecondyearSecondsemestertwoCn"
+            android:parentActivityName=".FocSecondYearSemester" />
+        <!-- second semester -->
+
+
+        <!-- start fob -->
+        <activity
+            android:name=".FobYearActivity"
+            android:parentActivityName=".FacultyActivity" />
+        <activity
+            android:name=".Fob_FirstYearActivity"
+            android:parentActivityName=".FobYearActivity" />
+        <activity
+            android:name=".Fob_FirstY_FSemActivity"
+            android:parentActivityName=".Fob_FirstYearActivity" />
+        <activity
+            android:name=".Fob_FirstY_SSemActivity"
+            android:parentActivityName=".Fob_FirstYearActivity" />
+        <activity
+            android:name=".fob_fy_fs_subjects"
+            android:parentActivityName=".Fob_FirstY_FSemActivity" />
+        <activity
+            android:name=".fob_fy_fs_accounting"
+            android:parentActivityName=".fob_fy_fs_subjects" />
+        <activity
+            android:name=".fob_fy_fs_itforbussiness"
+            android:parentActivityName=".fob_fy_fs_subjects" />
+        <activity
+            android:name=".fob_fy_fs_principlesofmanagement"
+            android:parentActivityName=".fob_fy_fs_subjects" />
+
+        <!-- end fob -->
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".SignUpActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity android:name=".IpPaperActivity" />
+        <activity android:name=".MitPaperActivity" />
+        <activity
+            android:name=".IcsPaperActivity"
+            android:parentActivityName=".FocFirstYFirstSemIcsActivity" />
+        <activity
+            android:name=".IcsTuteActivity"
+            android:parentActivityName=".FocFirstYFirstSemIcsActivity" />
+        <activity android:name=".MitTuteActivity" />
+        <activity android:name=".IpTuteActivity" />
+        <activity android:name=".FocSecondyearSemesteroneSe" />
+        <activity android:name=".FocSecondyearSemesteroneDbms" />
+        <activity android:name=".IcsAssigActivity" />
+        <activity android:name=".IpAssigmentActivity" />
+        <activity android:name=".MitAssignmentActivity"/>
+    </application>
+
+</manifest>

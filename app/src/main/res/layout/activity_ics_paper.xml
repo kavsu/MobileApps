@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FocFirstYearFirstSemIpActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_3"
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="343dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            app:srcCompat="@drawable/sliit" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_2"
+        android:layout_width="402dp"
+        android:layout_height="354dp"
+        app:layout_constraintEnd_toEndOf="@+id/rl_1"
+        app:layout_constraintTop_toBottomOf="@+id/rl_1">
+
+
+        <Button
+            android:id="@+id/btnippp"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/btnIT3"
+            android:layout_marginBottom="82dp"
+            android:background="@drawable/ic_foc"
+            android:text="2016"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnicstute"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="83dp"
+            android:background="@drawable/ic_foc"
+            android:text="2014"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+
+        <Button
+            android:id="@+id/btnIT4"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/btnippp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/ic_foc"
+            android:text="2017"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnIT3"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btnicstute"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_foc"
+            android:text="2015"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:text="Years"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FocFirstYearFirstSemMitActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_3"
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="343dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            app:srcCompat="@drawable/sliit" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_2"
+        android:layout_width="402dp"
+        android:layout_height="354dp"
+        app:layout_constraintEnd_toEndOf="@+id/rl_1"
+        app:layout_constraintTop_toBottomOf="@+id/rl_1">
+
+
+        <Button
+            android:id="@+id/mitas"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/btnmit_tute"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/ic_foc"
+            android:onClick="clickmitas"
+            android:text="UPLOAD ASSIGNMENT"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnippp10"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/mitas"
+            android:layout_marginBottom="128dp"
+            android:background="@drawable/ic_foc"
+            android:onClick="clickmp"
+            android:text="Past Papers"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnmit_tute"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="103dp"
+            android:background="@drawable/ic_foc"
+            android:text="@string/tutes"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:text="MIT"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

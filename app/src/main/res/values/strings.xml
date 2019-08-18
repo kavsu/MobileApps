@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SLIIT T&amp;P</string>
+    <string name="pwd">password</string>
+    <string name="username">username</string>
+    <string name="login">Log In</string>
+    <string name="faculty">FACULTY</string>
+    <string name="btn_itFac">FACULTY OF INFORMATION TECHNOLOGY</string>
+    <string name="btn_bmFac">FACULTY OF BUSINESS MANAGEMENT</string>
+    <string name="go">GO</string>
+    <string name="title_activity_splash_screen">splashScreen</string>
+    <string name="title_activity_faculty">facultyActivity</string>
+    <string name="title_activity_year">FOC - YEAR</string>
+    <string name="title_activity_fob_year">FOB - YEAR</string>
+    <string name="title_activity_faculty_year1">1st Year</string>
+    <string name="title_activity_faculty_year2">2nd Year</string>
+    <string name="btn_itSem1">Semester 1</string>
+    <string name="btn_itSem2">Semester 2</string>
+    <string name="txt_facComp">Faculty Of Computing</string>
+    <string name="txt_facCompY1">Faculty Of Computing - Year 1</string>
+    <string name="txt_facBis">Faculty Of Business Management</string>
+    <string name="txt_facBisY1">Faculty Of Business Management - Year 1</string>
+    <string name="txt_year1">Year 1</string>
+    <string name="txt_year2">Year 2</string>
+    <string name="txt_secYearSem1">Year 2 - Semester 1</string>
+    <string name="dbms">DBMS</string>
+    <string name="oop">OOP</string>
+    <string name="ossa">OSSA</string>
+    <string name="se">SE</string>
+    <string name="tutes">TUTORIALS</string>
+    <string name="ppap" translatable="false">Past Papers</string>
+    <string name="cn">CN</string>
+    <string name="dsa">DSA</string>
+    <string name="mad">MAD</string>
+    <string name="semester2">Year 1 - Semester 2</string>
+    <string name="iwt">IWT</string>
+    <string name="ooc">OOC</string>
+    <string name="ps">PS</string>
+    <string name="isdm">ISDM</string>
+    <string name="SPM">SPM</string>
+    <string name="image">IMAGE_SLIIT</string>
+    <string name="title_activity_login">Log in</string>
+    <string name="title_activity_signup">SignUp</string>
+    <string name="or">or</string>
+    <string name="su">"Don't have an Account?SignUp"</string>
+    <string name="log">Already have an Account?LogIn</string>
+</resources>

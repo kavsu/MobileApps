@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="match_parent"
+        android:layout_height="279dp">
+
+        <ImageView
+            android:id="@+id/sliit_logo"
+            android:layout_width="224dp"
+            android:layout_height="254dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:contentDescription="@string/app_name"
+            android:layerType="software"
+            app:srcCompat="@drawable/sliit_logo" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_2"
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        app:layout_constraintEnd_toEndOf="@+id/rl_1"
+        app:layout_constraintTop_toBottomOf="@+id/rl_1">
+
+
+        <Button
+            android:id="@+id/userLogin"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_foc"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:onClick="onClicklogin"
+            android:text="@string/title_activity_login"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.147" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/or"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/userSignUp"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="19dp"
+            android:background="@drawable/ic_foc"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:onClick="onClicksignup"
+            android:text="@string/title_activity_signup"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FacultyActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_3"
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="343dp"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            app:srcCompat="@drawable/sliit" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_2"
+        android:layout_width="match_parent"
+        android:layout_height="313dp"
+        app:layout_constraintEnd_toEndOf="@+id/rl_1"
+        app:layout_constraintTop_toBottomOf="@+id/rl_1">
+
+
+        <Button
+            android:id="@+id/ooc"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/ic_foc"
+            android:onClick="onClickfoc"
+            android:text="@string/btn_itFac"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnBM"
+            android:layout_width="295dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="33dp"
+            android:background="@drawable/ic_foc"
+            android:onClick="onClickfob"
+            android:text="@string/btn_bmFac"
+            android:textColor="#ffff" />
+
+        <TextView
+            android:id="@+id/fac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:text="@string/faculty"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+    </RelativeLayout>
+
+</LinearLayout>
